@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 32
 
     defaultConfig {
         applicationId "com.jpb.scratchtappy"
-        minSdk 21
-        targetSdk 31
-        versionCode 6006
-        versionName "6.0md3"
+        minSdk 22
+        targetSdk 32
+        versionCode 6100
+        versionName "6.1"
         multiDexEnabled true
         resConfigs "en", "fr", "pl"
         android.defaultConfig.vectorDrawables.useSupportLibrary = true
