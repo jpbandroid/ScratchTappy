@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:title="Virus Button"
+            android:id="@+id/virion"
+            android:icon="@drawable/ic_virus_black"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_action_settings"
+            android:title="Settings (new)"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/app_bar_switch"
+            android:title="@string/Switch"
+            app:actionLayout="@layout/switch_item"
+            app:showAsAction="always"></item>
+    </group>
+</menu>

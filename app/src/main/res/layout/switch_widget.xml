@@ -1,0 +1,10 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/tab_indicator_text"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/ThemeOverlay.ScratchTappy.AppWidgetContainer">
+    <vn.luongvo.widget.iosswitchview.SwitchView         android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </vn.luongvo.widget.iosswitchview.SwitchView>
+</RelativeLayout>

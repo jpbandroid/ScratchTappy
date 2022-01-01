@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_header_subtitle">wersja 6.0</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="menu_slideshow">Pojawi się wkrótce…</string>
+    <string name="large_text">
+        "Wersja aplilkacji: 6.0 \n"     "Pobierz aplikację Activity Launcher (aplikacja open-source w Sklepie Play) żeby włączyć aktywnośći których nie można znaleść w launcherze.\n"     "Link do Sklepu Google Play: https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher    "   "Plik APK (od strony internetowej APKMirror): https://www.apkmirror.com/apk/adam-szalkowski/activity-launcher/activity-launcher-1-9-2-release/activity-launcher-1-9-2-android-apk-download/download/"</string>
+    <string name="play_around_with_components">Testuj komponenty MD!</string>
+    <string name="appwidget_text">Widżet ScratchTappy</string>
+    <string name="about_scratchtappy">O aplikacji ScratchTappy</string>
+    <string name="menu_home">Strona Główna</string>
+    <string name="navigation_drawer_open">Otwórz część nawigacyjną</string>
+    <string name="navigation_drawer_close">Zamknij część nawigacyjną</string>
+    <string name="add_widget">Dodaj Widżet</string>
+    <string name="configure">Konfiguruj Widżet</string>
+    <string name="togglebutton">PrzyciskToggle</string>
+    <string name="todo">TODO</string>
+    <string name="here_you_can_test_md_holo_and_android_old_components">Tutaj można testować komponenty MD, Holo i android_old.</string>
+    <string name="hello_first_fragment">Cześć pierwszy fragment</string>
+    <string name="previous">Wstecz</string>
+    <string name="second_fragment_label">Drugi Fragment</string>
+    <string name="first_fragment_label">Pierwszy Fragment</string>
+    <string name="hello_second_fragment">Cześć drugi fragment</string>
+    <string name="nav_header_desc">Nagłówek nawigacyjny</string>
+    <string name="next">Następne</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="title_home">.</string>
+    <string name="title_dashboard">.</string>
+    <string name="title_notifications">.</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_item_detail">Szczegóły przedmiotu</string>
+    <string name="title_item_list">Przedmioty</string>
+    <string name="title_activity_3">Kalendarze</string>
+    <string name="title_activity_2">Tester Komponentów</string>
+    <string name="menu_gallery">Inne kolory</string>
+    <string name="buttons">Przyciski</string>
+    <string name="widgets">Widżety</string>
+    <string name="abcd">"Pomoc\n\n"
+    "Koło ScratchTappy znika\n"
+    "Gdy kółko zniknie z sekcji Strona główna aplikacji, przejdź do innej sekcji aplikacji i wróć do sekcji Strona główna, a pojawi się. Jeśli się nie pojawi, powtórz wymienione czynności. Jeśli nie pojawi się po powtórzeniu powyższych kroków, przejdź do Ustawienia -> Aplikacje -> Aplikacje / Więcej aplikacji / Wszystkie aplikacje (lub nic, zależy od wersji Androida i OEM) -> ScratchTappy (lub wyszukaj ScratchTappy na pasku wyszukiwania, jeśli jest dostępny) -> Wymuś Zatrzymanie (albo coś podobnego). Jeśli pojawi się alert, dotknij OK. Po wymuszonym zatrzymaniu aplikacji otwórz ją ponownie z launchera. Pojawi się kółko ScratchTappy, gotowe do rozpoczęcia klikania/dotykania. Jeśli tak się stanie do FAB (pływający przycisk akcji) z ikoną wirusa, wykonaj powyższe kroki, aby ten przycisk działał.\n\n"
+    "Nie można zainstalować aplikacji ScratchTappy\n\n"
+    "Jeśli nie można zainstalować aplikacji ScratchTappy, włącz nieznane źródła w Ustawieniach.\n"
+    "Na urządzeniach z Androidem 4.0.3-7.1.2 przejdź do Ustawienia -> Prywatność (lub Zaawansowane / Dodatkowe funkcje -> Prywatność, w zależności od nakładki OEM i wersji Androida), a następnie dotknij Nieznane źródła. Jeśli pojawi się alert, dotknij OK. Po włączeniu Nieznanych źródeł przejdź do wybranego menedżera plików, znajdź plik ScratchTappy APK (zwykle w folderze Download, ponieważ jest to miejsce w którym przeglądarki zwykle pobierają pliki z Internetu na urządzenie) i dotknij go. Dotknij opcji Instaluj, aby rozpocząć instalację aplikacji.\n"
+    "Na urządzeniach z Androidem 8.0+ proces instalacji przebiega nieco inaczej. Gdy pojawi się okno instalatora pakietów, pojawi się komunikat, że Twoja przeglądarka internetowa nie może zainstalować aplikacji ze względu na bezpieczeństwo Twojego urządzenia. Kliknij Ustawienia w tym monicie, aby Cię przekierować strona Ustawienia, na której musisz dotknąć Zezwól na instalacje z nieznanych źródeł (lub coś podobnego, znowu zależy to od skórek OEM i wersji Androida), W MIUI 12+, gdy pojawi się alert pokazujący, co może zrobić przeglądarka internetowa po włączeniu instalacji z nieznanych / niezaufanych źródeł. Zaznacz „Przyjmuję wszystkie możliwe konsekwencje dobrowolnie”, poczekaj, aż nie będzie „s” na OK i dotknij OK. * Na wszystkich urządzeniach z Androidem 8.0 + * Nastąpi przekierowanie z powrotem do Instalatora pakietów. Stuknij Zainstaluj, aby rozpocząć instalację.\n"
+    "Jeśli masz włączoną funkcję Play Protect, Play Protect wyświetli dwa alerty podczas instalacji aplikacji. W pierwszym alercie dotknij 'Zainstaluj mimo to', a w drugim 'Nie wysyłaj aplikacji do skanowania'.\n"
+    "Jeśli masz zainstalowaną / włączoną aplikację antywirusową / administratora urządzenia, NIE Play Protect ani MIUI Security/Huawei Optimizer etc., zablokuje Ci ona możliwość włączania nieznanych źródeł. Odinstaluj aplikację antywirusową / administratora urządzenia i wykonaj czynności dla swojej wersji Androida. Można ponownie zainstalować aplikację antywirusową po zainstalowaniu ScratchTappy.\n"
+    "Jeśli masz użytkownika zarządzanego przez Google Family Link, NIE MOŻESZ zainstalować aplikacji, ponieważ Family Link instaluje się jako aplikacja systemowa i aplikacja do administrowania urządzeniem, a tym samym blokuje nieznane źródła.\n"</string>
+    <string name="help">Pomoc</string>
+</resources>

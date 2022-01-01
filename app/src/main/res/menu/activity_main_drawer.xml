@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@id/nav_slideshow5"
+            android:icon="@drawable/ic_action_calendar"
+            android:title="@string/title_activity_3" />
+        <item
+            android:id="@id/blank"
+            android:icon="@drawable/ic_dev"
+            android:title="Libraries used in ST"
+            android:titleCondensed="ST Libraries" />
+        <item
+            android:id="@id/app"
+            android:icon="@drawable/ic_devices"
+            android:title="About devices">
+            <menu>
+                <group>
+                    <item
+                        android:id="@id/nav_slideshow4"
+                        android:icon="@drawable/ic_phone"
+                        android:title="@string/redmi_note_8_image" />
+                    <item
+                        android:id="@id/rate"
+                        android:icon="@drawable/ic_tablet"
+                        android:title="Huawei MediaPad M5 8.4" />
+                    <item
+                        android:id="@id/rate2"
+                        android:icon="@drawable/ic_tablet_softkeys"
+                        android:title="Fire HD 8 (2018)"></item>
+                </group>
+            </menu>
+        </item>
+        <item android:id="@+id/file"
+            android:title="MD, Holo and ADL components">
+            <!-- "file" submenu -->
+            <menu>
+                <group>
+                <item android:title="@string/buttons"
+                    android:id="@id/nav_slideshow3"
+                    android:icon="@drawable/ic_action_buttons"/>
+                <item
+                    android:title="@string/widgets"
+                    android:id="@id/nav_slideshow6"
+                    android:icon="@drawable/ic_dashboard_black_24dp"/>
+                </group>
+            </menu>
+        </item>
+        <item android:title="Settings (legacy) and Legacy Changelogs">
+            <menu>
+                <group>
+                    <item
+                        android:id="@id/nav_settings"
+                        android:icon="@drawable/ic_action_settings"
+                        android:title="@string/action_settings" />
+                    <item
+                        android:id="@+id/nav_settings2"
+                        android:icon="@drawable/ic_changelog"
+                        android:title="Legacy Changelogs" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>

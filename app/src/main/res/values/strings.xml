@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name" translatable="false">ScratchTappy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">ScratchTappy</string>
+    <string name="nav_header_subtitle">version 6.0</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_slideshow">Coming soon…</string>
+    <string name="large_text">"ScratchTappy app version: 6.0\n"
+        "Download Activity Launcher (an open source app on the Play Store) to launch hidden activities. \n"         Google Play link: https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher          APK file (from APKMirror) link: https://www.apkmirror.com/apk/adam-szalkowski/activity-launcher/activity-launcher-1-9-2-release/activity-launcher-1-9-2-android-apk-download/download/     \n "
+    "This is a minor update and comes with new features. See the changelog (in Settings) for more info!
+🥳"</string>
+    <string name="about_scratchtappy">About ScratchTappy</string>
+    <string name="appwidget_text">ScratchTappy Widget</string>
+    <string name="configure">Configure Widget</string>
+    <string name="add_widget">Add widget</string>
+    <string name="play_around_with_components">Play around with components!</string>
+    <string name="togglebutton">ToggleButton</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="here_you_can_test_md_holo_and_android_old_components">Here you can test MD, Holo and android_old components.</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_3">Calendars</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_2">ComponentsTester</string>
+    <string name="redmi_note_8_image" translatable="false">Redmi Note 8</string>
+    <string name="menu_gallery">Other colours</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <!-- Error messages -->
+    <string name="buttons">Buttons</string>
+    <string name="Switch" translatable="false">Switch</string>
+    <string name="widgets">Widgets</string>
+    <string name="abcd">"Help\n\n"
+        "ScratchTappy circle disappears\n"
+    "When the circle disappears from the Home section of the app, go into another section of the app and return to the section labelled Home and it will appear. If it doesn't appear, repeat the steps mentioned. If it does not appear after repeating the aformentioned steps, go to Settings -> Apps -> Apps/More apps/All apps (or nothing, depends on Android version and OEM) -> ScratchTappy (or search for ScratchTappy in the search bar, if available) -> Force Stop. If an alert appears, tap OK. After force-stopping the app, reopen the app from the launcher. The ScratchTappy circle will appear, ready for you to begin tapping. If this happens to the FAB (floating action button; in simple language a button) with the virus icon, do the aforementioned steps to get this button working\n\n"
+        "App cannot be installed\n"
+        "If the ScratchTappy app can't be installed, enable unknown sources in Settings.\n"
+        "For Android 5.0-7.1.2 devices, go to Settings -> Privacy (or Advanced/Extra Features -> Privacy, depends on OEM skin and Android version), then tap Unknown Sources. If an alert appears, tap OK. After you have enabled Unknown Sources, go into your file manager of choice, find the ScratchTappy APK file (usually in Download folder as this is where browsers usually download files from the Internet onto your device) and tap on it. Tap Install to commence the installation.\n"
+        "For Android 8.0+ devices, the installation process is a bit different. When the Package Installer window shows up, you get a prompt that your web browser cannot install the app for your device's security. Tap Settings on that prompt for it to redirect you a Settings page, where you have to tap Allow installs from unknown sources (or something similar, again it depends on OEM skins and Android version), On MIUI 12+, when an alert shows up showing what the web browser can do after enabling installation from unknown/untrusted sources. Check 'I assume all possible consequences voluntarily', wait until there is no 's' on OK and tap OK. *On all devices running Android 8.0+* You will now be redirected back to Package Installer. Tap Install to begin the installation.\n"
+        "If you have Play Protect enabled, Play Protect will show you 2 prompts during the installation of the app. On the 1st prompt, tap 'Install Anyway', and on the second prompt tap 'Don't send app for scanning'.\n"
+        "If you have an antivirus/device admin app, NOT Play Protect or MIUI Security, installed/enabled, it will block you from enabling unknown sources. Please uninstall the antivirus/device admin app and continue with the steps for your Android version. You can reinstall the antivirus app after the installation of ScratchTappy.\n"
+        "If you have a user managed through Google Family Link, you CANNOT install the app due to Family Link installing itself as a system app and a device admin app and therefore, blocking Unknown Sources."
+    </string>
+    <string name="help">Help</string>
+    <string name="about" translatable="false">About the app</string>
+    <string name="changelog" translatable="false">
+        "Welcome to ScratchTappy!\n"
+        "Version 3.0 is a new major release and brings some UI changes, new features and fixes bugs.\n\n"
+        "UI changes\n"
+        "No major changes\n\n"
+        "New Features\n"
+        "Adds a Settings category in the menu, via which you can easily chack where you can update the app, see what ScratchTappy is, troubleshoot issues, and of course, view this Changelog!\n"
+        "The legacy Info and Troubleshooting section and the entries within it are still available, but now you are able to copy the text from both the About ScratchTappy and Help pages.\n\n"
+        "Bug fixes, performance improvements and stability improvements\n"
+        "Removes the Virus Button and Forwarding Test entries to fix a bug in which the virus image button was not visible, and to delete a faulty fragment which crashed the app.\n\n"
+        "If you want me to add new features, just tell me what you want and I will try to figure out how to add it! 😉\n"
+        "As always, I hope that you enjoy this app as well as the others that I have made!"
+    </string>
+    <string name="changelog2" translatable="false">
+        "Welcome to ScratchTappy!\n"
+        "Version 4.0 is a new major release and brings some UI changes, new features and fixes bugs.\n\n"
+        "UI changes\n"
+        "No major changes\n\n"
+        "New Features\n"
+        "Adds a Legacy Changelogs fragment (in the Settings and Legacy Changelogs section) in which you can view changelogs from past versions of ScratchTappy.\n"
+        "Adds information about the Redmi Note 8 to the Redmi Note 8 fragment, which had not been improved for a while.\n"
+        "Adds a fragment showing a photo of the Huawei MediaPad M5 8.4. Information about the tablet will be added in ScratchTappy 4.1.\n"
+        "Adds a new menu category which holds the two fragments described above.\n"
+        "Renames the Settings section to the Settings and Legacy Changelogs section because of the addition of a Legacy Changelogs fragment.\n\n"
+        "Bug fixes, performance improvements and stability improvements\n"
+        "Adds support for Android 4.0-4.0.2 (Android ICS; API 14)\n"
+        "Updates libraries:\n"
+        "androidx.navigation:navigation-fragment, androidx.navigation:navigation-ui, androidx.navigation:navigation-fragment-ktx, and androidx.navigation:navigation-ui-ktx updated to version 2.3.5\n"
+        "junit:junit updated to version 4.13.2\n"
+        "If you want me to add new features, just tell me what you want and I will try to figure out how to add it! 😉\n"
+        "As always, I hope that you enjoy this app as well as the others that I have made!"
+    </string>
+    <string name="changelog3" translatable="false">
+        "Welcome to ScratchTappy!\n"
+        "Version 4.1 is a new minor release and brings some new features and updates some libraries and AGP.\n\n"
+        "UI changes\n"
+        "No major changes\n\n"
+        "New Features\n"
+        "- Device Info Menu\n"
+        "   ● Adds information about the Huawei MediaPad M5 8.4 to its fragment\n"
+        "Bug fixes and performance improvements\n"
+        "- Updates libraries\n"
+        "   ● Android Gradle Plugin (AGP) updated to version 4.2.1\n"
+        "   ● androidx.core:core-ktx updated to version 1.5.0\n"
+        "   ● androidx.appcompat:appcompat updated to version 1.3.0\n"
+        "If you want me to add new features, just tell me what you want and I will try to figure out how to add it! 😉\n"
+        "As always, I hope that you enjoy this app as well as the others that I have made!"
+    </string>
+    <string name="changelog4" translatable="false">
+        "Welcome to ScratchTappy!\n"
+        "Version 5.0 is a new major release and brings some new features.\n\n"
+        "UI changes\n"
+        "- App Bar\n"
+        "   ● The buttons are now a menu!!
+        "New Features\n"
+        "- Device Info Menu\n"
+        "   ● Adds a picture of the Fire HD 8 (8th gen)\n"
+        "Bug fixes and performance improvements\n"
+        "- API changes\n"
+        "   ● Updates the target API of ST to Android 12 (API 31), probably about 2-5 months before all of the GApps!!\n"
+        "If you want me to add new features, just tell me what you want and I will try to figure out how to add it! 😉\n"
+        "As always, I hope that you enjoy this app as well as the others that I have made!"
+    </string>
+    <string name="changelog5" translatable="false">
+        "Welcome to ScratchTappy!\n"
+        "Version 6.0 is a new major release and brings LOTS of new features, easter eggs and a UI redesign (not Material You yet!; I expect this to come in v6.1, which will probably be released by mid-to-late Decmber 2021.).\n\n"
+        "UI changes\n"
+        "- App Bar\n"
+        "   ● Removes some redundant items\n"
+        "- Settings\n"
+        "   ● Adds a new Settings with MIUI 12-style settings cards\n"
+        "   ● Adds a MIUI 12-style Updater UI into these Settings\n"
+        "   ● Adds a pretty familiar easter egg. Check it out for yourself by going into the new settings and pressing the build time button 5 times...\n"
+        "   ● Adds ANOTHER easter egg. Check it out for yourself by going into the new settings and pressing the ST version or Video version button 5 times...\n"
+        "New Features\n"
+        "- Colour Picker\n"
+        "   ● New advanced colour picker out now!\n"
+        "   ● New! EMUI 10 colour chooser dialog now available!\n"
+        "- ST Applets (open these from the launcher!)\n"
+        "   ● Adds jpb Video (still in preview, not fully functional!)\n"
+        "- C++ JNI\n"
+        "   ● Adds two JNI scripts\n"
+        "- Buttons &amp; Widgets\n"
+        "   ● Adds a Switch to the Buttons fragment\n"
+        "   ● Adds a Search Bar to the Widgets fragment\n"
+        "Bug fixes and performance improvements\n"
+        "- Library updates\n"
+        "   ● AGP upgraded to version 7.0.3\n"
+        "   ● androidx.core updated to version 1.7.0\n"
+        "   ● androidx.appcompat updated to version 1.3.1\n"
+        "   ● com.google.android.material updated to version 1.4.0\n"
+        "   ● androidx.constraintlayout updated to version 2.1.1\n"
+        "   ● androidx.lifecycle updated to version 2.4.0\n"
+        "   ● androidx.recyclerview updated to version 1.2.1\n"
+        "   ● com.github.bumptech.glide updated to version 4.12.0\n"
+        "   ● androidx.test.espresso updated to version 3.4.0\n"
+        "- API Changes\n"
+        "   ● Now uses Kotlin 1.6!\n"
+        "   ● Minimum API level changed to 21 (5.0 Lollipop)\n"
+        "   ● Sorry to those users who are still running the Android 4.x.x family of Android versions. They are unsupported as of this release. Also, these Android versions are 8-10 years old!! Can you imagine how hard it is to support these ancient Android versions??\n"
+        "If you want me to add new features, just tell me what you want and I will try to figure out how to add it! 😉\n"
+        "As always, I hope that you enjoy this app as well as the others that I have made!"
+    </string>
+    <string name="select" translatable="false">Selected!</string>
+    <string name="colors" translatable="false">Pick an MD colour!</string>
+    <string name="micolors" translatable="false">Pick a MIUI colour!</string>
+    <string name="icolors" translatable="false">Pick a HIG colour!</string>
+    <string name="emuicolors" translatable="false">Pick an EMUI 10 colour!</string>
+    <string name="strate" translatable="false">Rate ScratchTappy!</string>
+    <string name="videorate" translatable="false">Rate jpb Video!</string>
+    <string name="st6title" translatable="false">Changelog</string>
+    <string name="title_activity_whats_new">WhatsNew</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.jpb.scratchtappy.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.jpb.scratchtappy.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.jpb.scratchtappy.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_slideshow2"
+        android:name="com.jpb.scratchtappy.ScrollingFragment2"
+        android:label="@string/about_scratchtappy"
+        tools:layout="@layout/fragment_scrolling3" />
+    <fragment
+        android:id="@+id/nav_slideshow4"
+        android:name="com.jpb.scratchtappy.BlankFragment"
+        android:label="@string/redmi_note_8_image"
+        tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/nav_slideshow5"
+        android:name="com.jpb.scratchtappy.BlankFragment2"
+        android:label="Calendars"
+        tools:layout="@layout/fragment_blank2" />
+    <fragment
+        android:id="@+id/nav_slideshow3"
+        android:name="com.jpb.scratchtappy.BlankFragment13"
+        android:label="Buttons"
+        tools:layout="@layout/fragment_blank13" />
+    <fragment
+        android:id="@+id/nav_slideshow6"
+        android:name="com.jpb.scratchtappy.BlankFragment3"
+        android:label="Widgets"
+        tools:layout="@layout/fragment_blank14" />
+    <fragment
+        android:id="@+id/nav_slideshow8"
+        android:name="com.jpb.scratchtappy.ScrollingFragment3"
+        android:label="Troubleshoot Common Issues"
+        tools:layout="@layout/fragment_scrolling4" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.jpb.scratchtappy.SettingsFragment"
+        android:label="@string/action_settings" />
+    <fragment
+        android:id="@+id/nav_settings2"
+        android:name="com.jpb.scratchtappy.SettingsFragment2"
+        android:label="Legacy Changelogs" />
+    <fragment
+        android:id="@+id/Rate"
+        android:name="com.jpb.scratchtappy.BlankFragment7"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_blank6" />
+    <fragment
+        android:id="@+id/blank"
+        android:name="com.jpb.scratchtappy.BlankFragment8"
+        android:label="Libraries used in ST"
+        tools:layout="@layout/fragment_blank7" />
+    <fragment
+        android:id="@+id/rate"
+        android:name="com.jpb.scratchtappy.BlankFragment6"
+        android:label="About the Huawei MediaPad M5 8.4"
+        tools:layout="@layout/fragment_blank5" />
+    <fragment
+        android:id="@+id/rate2"
+        android:name="com.jpb.scratchtappy.erifhd8"
+        android:label="Fire HD 8"
+        tools:layout="@layout/fragment_erifhd8" />
+</navigation>

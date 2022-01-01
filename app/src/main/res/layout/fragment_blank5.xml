@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mediapad_m5_8_4_lte_space_grey" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About the Huawei MediaPad M5 8.4" />
+
+            <TextView
+                android:id="@+id/textView14"
+                style="@style/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OS and release date"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The tablet was launched with EMUI 8 and Android 8.0 Oreo, and was upgraded to Android 9 Pie/EMUI 9, and the device's last major update was Android 9 Pie/EMUI 9.1. Some users wanted the tablet to get Android 10, but this is not goinng to happen. The tablet was announced in February 2018, and released in April 2018." />
+
+            <TextView
+                android:id="@+id/textView53"
+                style="@style/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hardware"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The device has a HiSilicon Kirin 960S CPU. Its front camera is an 8 MP camera, and its back camera is a 13 MP camera." />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

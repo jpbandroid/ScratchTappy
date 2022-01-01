@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VirusActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="178dp"
+        android:layout_height="125dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="#FFFFFFFF"
+        app:backgroundTint="@color/design_default_color_error"
+        app:srcCompat="@drawable/ic_virus_black"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton12"
+        android:layout_width="178dp"
+        android:layout_height="125dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="#FFFFFFFF"
+        app:backgroundTint="@color/light_blue_200"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton"
+        app:srcCompat="@drawable/ic_mask"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton14"
+        android:layout_width="178dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="124dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="#FFFFFFFF"
+        app:backgroundTint="@color/light_blue_200"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton"
+        app:srcCompat="@drawable/ic_mask"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_colourdialog"
+        tools:layout_editor_absoluteY="664dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

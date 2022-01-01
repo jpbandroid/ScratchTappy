@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="May 2021"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:entries="@array/abcd"
+            android:entryValues="@array/abcd"
+            android:key="list_preference_1"
+            android:summary="The changelog for ScratchTappy version 3.0"
+            android:title="ScratchTappy 3.0"
+            app:dialogMessage="@string/changelog"
+            app:dialogTitle="ST 3.0 changelog"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/abcd"
+            android:entryValues="@array/abcd"
+            android:key="list_preference_2"
+            android:summary="The changelog for ScratchTappy version 4.0"
+            android:title="ScratchTappy 4.0"
+            app:dialogMessage="@string/changelog2"
+            app:dialogTitle="ST 4.0 changelog"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            android:entries="@array/abcd"
+            android:entryValues="@array/abcd"
+            android:key="list_preference_3"
+            android:summary="The changelog for ScratchTappy version 4.1"
+            android:title="ScratchTappy 4.1"
+            app:dialogMessage="@string/changelog3"
+            app:dialogTitle="ST 4.1 changelog"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="June 2021"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dialogMessage="@string/changelog4"
+            android:dialogTitle="ST 5.0 changelog"
+            android:entries="@array/abcd"
+            android:entryValues="@array/abcd"
+            android:key="list_preference_5"
+            android:summary="The changelog for ScratchTappy version 5.0"
+            android:title="ScratchTappy 5.0"
+            app:dialogMessage="@string/changelog4"
+            app:dialogTitle="ST 5.0 changelog"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

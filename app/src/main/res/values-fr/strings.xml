@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Ouvrir le panneau de navigation</string>
+    <string name="navigation_drawer_close">Fermer le panneau de navigation</string>
+    <string name="nav_header_subtitle">version 6.0</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="menu_home">Page d\'accueil</string>
+    <string name="menu_slideshow">À venir…</string>
+    <string name="large_text">Version de l\'application ScratchTappy: 6.0 Téléchargez Activity Launcher (une application open source sur le Play Store) pour lancer des activités cachées. Lien Google Play: https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher fichier APK (de APKMirror) lien: https://www.apkmirror.com/apk/adam–szalkowski / activity–launcher / activity–launcher–1-9-2-release / activity-launcher-1-9-2-android-apk-download / download /</string>
+    <string name="todo">TODO</string>
+    <string name="about_scratchtappy">À propos de ScratchTappy</string>
+    <string name="appwidget_text">Widget ScratchTappy</string>
+    <string name="configure">Configurer le widget</string>
+    <string name="add_widget">Ajouter un widget</string>
+    <string name="play_around_with_components">Testez les composants MD!</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="first_fragment_label">Premier fragment</string>
+    <string name="second_fragment_label">Deuxième fragment</string>
+    <string name="next">Suivant/Suivante</string>
+    <string name="previous">"Précédent/Précédente "</string>
+    <string name="hello_first_fragment">Bonjour premier fragment</string>
+    <string name="hello_second_fragment">Bonjour deuxième fragment</string>
+    <string name="here_you_can_test_md_holo_and_android_old_components">Ici, vous pouvez tester les composants MD, Holo et android_old.</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="title_home">.</string>
+    <string name="title_dashboard">.</string>
+    <string name="title_notifications">.</string>
+    <string name="tab_text_1">Onglet 1</string>
+    <string name="tab_text_2">Onglet 2</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_item_detail">Détail de l\'article</string>
+    <string name="title_item_list">Articles</string>
+    <string name="title_activity_3">Calendriers</string>
+    <string name="title_activity_2">ComposantsTester</string>
+    <string name="menu_gallery">Autres Couleurs</string>
+    <string name="buttons">Buttons</string>
+    <string name="widgets">Widgets</string>
+    <string name="abcd">"Aide\n\n"
+    "Le cercle ScratchTappy disparaît\n"
+    "Lorsque le cercle disparaît de la section Accueil de l'application, accédez à une autre section de l'application et revenez à la section intitulée Accueil et il apparaîtra. S'il n'apparaît pas, répétez les étapes mentionnées. S'il n'apparaît pas après en répétant les étapes ci-dessus, allez dans Paramètres -> Applications -> Applications / Plus d'applications / Toutes les applications (ou rien, dépend de la version d'Android et de l'OEM) -> ScratchTappy (ou recherchez ScratchTappy dans la barre de recherche, si disponible) -> Force Arrêter. Si une alerte s'affiche, appuyez sur OK. Après avoir forcé l'arrêt de l'application, rouvrez l'application à partir du lanceur. Le cercle ScratchTappy apparaîtra, prêt à être touché. Si cela arrive au FAB (bouton d'action flottant; en simple langue a) avec l'icône de virus, suivez les étapes ci-dessus pour que ce bouton fonctionne\n\n."
+    "L'application ne peut pas être installée\n"
+    "Si l'application ScratchTappy ne peut pas être installée, activez les sources inconnues dans les paramètres.\n"
+    "Pour les appareils Android 4.0.3-7.1.2, accédez à Paramètres -> Confidentialité (ou Fonctionnalités avancées / supplémentaires -> Confidentialité, dépend du skin OEM et de la version Android), puis appuyez sur Sources inconnues. Si une alerte apparaît, appuyez sur OK. Une fois que vous avez activé les sources inconnues, accédez au gestionnaire de fichiers de votre choix, recherchez le fichier APK ScratchTappy (généralement dans le dossier Download, car c'est là que les navigateurs téléchargent généralement des fichiers depuis Internet sur votre appareil) et appuyez dessus. Appuyez sur Installer pour commencer la installation.\n"
+    "Pour les appareils Android 8.0+, le processus d'installation est un peu différent. Lorsque la fenêtre du programme d'installation du package apparaît, vous recevez une invite indiquant que votre navigateur Web ne peut pas installer l'application pour la sécurité de votre appareil. Appuyez sur Paramètres sur cette invite pour qu'il vous redirige une page Paramètres, où vous devez appuyer sur Autoriser les installations à partir de sources inconnues (ou quelque chose de similaire, encore une fois, cela dépend des skins OEM et de la version Android), Sur MIUI 12+, lorsqu'une alerte apparaît indiquant ce que le navigateur Web peut faire après l'activation de l'installation provenant de sources inconnues / non fiables. Cochez «J'assume volontairement toutes les conséquences possibles», attendez qu'il n'y ait pas de «s» sur OK et appuyez sur OK. * Sur tous les appareils exécutant Android 8.0 + * Vous serez maintenant redirigé vers le programme d'installation de package. Appuyez sur Installez pour commencer l'installation.\n"
+    "Si Play Protect est activé, Play Protect vous montrera 2 invites lors de l'installation de l'application. À la première invite, appuyez sur 'Installer quand même', et sur la deuxième invite, appuyez sur 'Ne pas envoyer l'application pour la numérisation'.\n"
+    "Si vous avez une application d'administration antivirus / appareil, PAS Play Protect ou MIUI Security, installée / activée, elle vous empêchera d'activer des sources inconnues. Veuillez désinstaller l'application d'administration antivirus / appareil et continuez avec les étapes correspondant à votre version d'Android. Vous peut réinstaller l'application antivirus après l'installation de ScratchTappy.\n"
+    "Si un utilisateur est géré via Google Family Link, vous NE POUVEZ PAS installer l'application car Family Link s'installe en tant qu'application système et application d'administration de l'appareil et bloque donc les sources inconnues."</string>
+    <string name="help">Aide</string>
+</resources>

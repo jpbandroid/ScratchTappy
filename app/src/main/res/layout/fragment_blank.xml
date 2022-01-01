@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="374dp"
+                android:maxHeight="1000dp"
+                android:minHeight="-100dp"
+                android:src="@drawable/xiaomi_redmi_note_8_1000x1340"
+                app:srcCompat="@drawable/xiaomi_redmi_note_8_1000x1340" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About the Redmi Note 8"
+                android:textAppearance="@style/title2"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OS and Launch Date"
+                android:textAppearance="@style/title2"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Redmi Note 8 is a phone made by a Chinese company called Xiaomi. It runs MIUI 12.0.4 on top of Android 10 with the February 2021 security patch. Updates to MIUI 12.5/Android 11 and MIUI 13/Android 11 are planned. The Android 11 upgrade has already happened in some regions (China, Europe). The phone launched with MIUI 10 and Android 9 'Pie' on October 16, 2019. It was anounced on August 29, 2019."
+                android:textIsSelectable="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hardware"
+                android:textAppearance="@style/title2"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The CPU is a Qualcomm SDM665 Snapdragon 665 (11 nm) CPU. The device's size is 6.3 in and its screen resolution is 1080 x 2340 pixels. The phone weighs 190g, has a USB-C port and it also has a 3.5mm headphone jack, something that many phones and tablets now don't have."
+                android:textIsSelectable="true"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

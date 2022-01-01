@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jpb.scratchtappy"
+    tools:ignore="MissingLeanbackLauncher">
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScratchTappy"
+        android:requestLegacyExternalStorage="true">
+        <activity
+            android:name=".whatsnew"
+            android:exported="false" />
+        <activity
+            android:name=".VersionChooser"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillRed"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillAmber"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillYellow"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillGreen"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillLightGreen"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillLightBlue"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillBlue"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillPink"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillEnd"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillIndigo"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillCyan"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillDeepOrange"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillDeepPurple"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillLime"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillPurple"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillOrange"
+            android:exported="false" />
+        <activity
+            android:name=".FireDrillTeal"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:banner="@mipmap/ic_banner"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ScratchTappy.NoActionBar"
+            tools:targetApi="lollipop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VideosSettings"
+            android:exported="false"
+            android:theme="@style/Theme.Videos" />
+        <activity
+            android:name=".Video"
+            android:banner="@mipmap/ic_banner"
+            android:exported="true"
+            android:icon="@mipmap/ic_video"
+            android:label="jpb Video (Early Access)"
+            android:theme="@style/Theme.Videos">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdvancedColour"
+            android:exported="false" />
+        <activity
+            android:name=".UpdaterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity android:name=".ColourDialog" />
+        <activity android:name=".VirusActivity" />
+        <activity
+            android:name=".PlatLogoActivity"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize"
+            android:exported="true"
+            android:icon="@drawable/s_platlogo"
+            android:theme="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver
+            android:name=".NewAppWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".NewAppWidgetConfigureActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

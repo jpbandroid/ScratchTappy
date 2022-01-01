@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/about">
+        <ListPreference
+            android:dialogIcon="@drawable/ic_info_black_24dp"
+            android:dialogMessage="@string/large_text"
+            android:dialogTitle="@string/about_scratchtappy"
+            android:entries="@array/abcd"
+            android:entryValues="@array/abcd"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:key="list_preference_1"
+            android:selectable="true"
+            android:summary="Find out info about the app"
+            android:title="@string/about_scratchtappy"
+            app:negativeButtonText="Return to Settings"
+            app:positiveButtonText="I have finished reading"
+            app:useSimpleSummaryProvider="false" />
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dialogIcon="@drawable/ic_changelog"
+            android:dialogMessage="@string/changelog5"
+            android:dialogTitle="Changelog"
+            android:entries="@array/abcd"
+            android:entryValues="@array/abcd"
+            android:icon="@drawable/ic_changelog"
+            android:key="list_preference_2"
+            android:summary="See what's new in this release of ScratchTappy"
+            android:title="Changelog"
+            app:negativeButtonText="Go back to Settings" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_material_design"
+            android:key="switch_preference_1"
+            android:title="MD3 Theme (beta)"
+            app:isPreferenceVisible="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Solve Issues">
+        <ListPreference
+            android:dialogIcon="@drawable/ic_help"
+            android:dialogMessage="@string/abcd"
+            android:dialogTitle="@string/help"
+            android:entries="@array/abcd"
+            android:entryValues="@array/abcd"
+            android:icon="@drawable/ic_help"
+            android:key="list_preference_4"
+            android:summary="Find fixes for common issues relating to the app"
+            android:title="@string/help" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_feedback"
+            android:key="check_box_preference_1"
+            android:summary="Rate the app"
+            android:summaryOff="I don't like ScratchTappy"
+            android:summaryOn="I like ScratchTappy"
+            android:title="Feedback" />
+        <PreferenceCategory
+            android:icon="@mipmap/ic_launcher"
+            android:title="App Version: 6.0md3 (6006)"
+            app:title="App Version: 6.0md3 (6006)">
+            <PreferenceCategory
+                android:icon="@mipmap/ic_launcher44_round"
+                android:title="Sunday 21 November 2021 at 10:00"
+                app:title="Sunday 21 November 2021 at 10:00" />
+        </PreferenceCategory>
+    </PreferenceCategory>
+</PreferenceScreen>
