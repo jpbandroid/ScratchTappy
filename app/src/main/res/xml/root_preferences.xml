@@ -57,12 +57,12 @@
             android:title="Feedback" />
         <PreferenceCategory
             android:icon="@mipmap/ic_launcher"
-            android:title="App Version: 6.0md3 (6006)"
-            app:title="App Version: 6.0md3 (6006)">
+            android:title="App Version: 6.1 (6100)"
+            app:title="App Version: 6.1 (6100)">
             <PreferenceCategory
                 android:icon="@mipmap/ic_launcher44_round"
-                android:title="Sunday 21 November 2021 at 10:00"
-                app:title="Sunday 21 November 2021 at 10:00" />
+                android:title="Tuesday 4 January 2022 at 17:00Sunday 9 January 2022 at 16:00"
+                app:title="Sunday 9 January 2022 at 16:00" />
         </PreferenceCategory>
     </PreferenceCategory>
 </PreferenceScreen>
