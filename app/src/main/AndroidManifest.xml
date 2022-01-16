@@ -27,13 +27,16 @@
         android:requestLegacyExternalStorage="true">
         <activity
             android:name=".whatsnew"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.ScratchTappy.md3"/>
         <activity
             android:name=".VersionChooser"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.ScratchTappy.md3"/>
         <activity
             android:name=".UpdateActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.ScratchTappy.md3"/>
         <activity
             android:name=".FireDrillRed"
             android:exported="false" />
@@ -100,32 +103,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".VideosSettings"
-            android:exported="false"
-            android:theme="@style/Theme.Videos" />
-        <activity
-            android:name=".Video"
-            android:banner="@mipmap/ic_banner"
-            android:exported="true"
-            android:icon="@mipmap/ic_video"
-            android:label="jpb Video (Early Access)"
-            android:theme="@style/Theme.Videos">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".AdvancedColour"
             android:exported="false" />
         <activity
             android:name=".UpdaterActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.ScratchTappy.md3"/>
         <activity
             android:name=".Settings"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.ScratchTappy.md3"/>
         <activity android:name=".ColourDialog" />
         <activity android:name=".VirusActivity" />
         <activity

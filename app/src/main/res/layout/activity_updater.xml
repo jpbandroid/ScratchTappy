@@ -10,7 +10,7 @@
         android:id="@+id/textView57"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ScratchTappy 6.0 | Stable"
+        android:text="ScratchTappy 6.1 | Stable"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,6 +31,7 @@
 
     <Button
         android:id="@+id/button7"
+        style="@style/Widget.Material3.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"

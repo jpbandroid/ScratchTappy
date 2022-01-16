@@ -3,14 +3,14 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title" translatable="false">ScratchTappy</string>
-    <string name="nav_header_subtitle">version 6.0</string>
+    <string name="nav_header_subtitle">version 6.1</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_slideshow">Coming soon…</string>
-    <string name="large_text">"ScratchTappy app version: 6.0\n"
-        "Download Activity Launcher (an open source app on the Play Store) to launch hidden activities. \n"         Google Play link: https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher          APK file (from APKMirror) link: https://www.apkmirror.com/apk/adam-szalkowski/activity-launcher/activity-launcher-1-9-2-release/activity-launcher-1-9-2-android-apk-download/download/     \n "
+    <string name="large_text">"ScratchTappy app version: 6.1\n"
+        "Download jpb Activity Launcher (found here: https://occoam.com/jpb/wp-content/uploads/aclaunch1.1.apks) to launch hidden activities. \n"         Google Play link: https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher          APK file (from APKMirror) link: https://www.apkmirror.com/apk/adam-szalkowski/activity-launcher/activity-launcher-1-9-2-release/activity-launcher-1-9-2-android-apk-download/download/     \n "
     "This is a minor update and comes with new features. See the changelog (in Settings) for more info!
 🥳"</string>
     <string name="about_scratchtappy">About ScratchTappy</string>

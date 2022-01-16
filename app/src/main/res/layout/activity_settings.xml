@@ -55,13 +55,13 @@
                             android:id="@+id/textView24"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="6.0" />
+                            android:text="6.1" />
 
                         <TextView
                             android:id="@+id/textView25"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Stable" />
+                            android:text="DP2" />
 
                     </LinearLayout>
 
@@ -202,7 +202,7 @@
                             android:id="@+id/textView56"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="6.0 Stable (build 6000)" />
+                            android:text="6.1 DP2 (build 6100)" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -249,7 +249,7 @@
                             android:id="@+id/textView103"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Friday 19 November 2021 at 21:00" />
+                            android:text="Sunday 16 Jaunary 2022" />
 
                     </LinearLayout>
                 </LinearLayout>

@@ -33,7 +33,7 @@
             android:defaultValue="false"
             android:icon="@drawable/ic_material_design"
             android:key="switch_preference_1"
-            android:title="MD3 Theme (beta)"
+            android:title="MD3 Theme (RC)"
             app:isPreferenceVisible="false" />
     </PreferenceCategory>
     <PreferenceCategory android:title="Solve Issues">
@@ -62,7 +62,7 @@
             <PreferenceCategory
                 android:icon="@mipmap/ic_launcher44_round"
                 android:title="Tuesday 4 January 2022 at 17:00Sunday 9 January 2022 at 16:00"
-                app:title="Sunday 9 January 2022 at 16:00" />
+                app:title="Sunday 16 January 2022 at 16:00" />
         </PreferenceCategory>
     </PreferenceCategory>
 </PreferenceScreen>

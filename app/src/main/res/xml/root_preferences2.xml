@@ -53,4 +53,20 @@
             app:dialogTitle="ST 5.0 changelog"
             app:iconSpaceReserved="false" />
     </PreferenceCategory>
+    <PreferenceCategory android:title="November 2021">
+
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dialogMessage="@string/changelog6"
+            android:dialogTitle="ST 6.0 changelog"
+            android:entries="@array/abcd"
+            android:entryValues="@array/abcd"
+            android:key="list_preference_5"
+            android:summary="The changelog for ScratchTappy version 6.0"
+            android:title="ScratchTappy 6.0"
+            app:dialogMessage="@string/changelog6"
+            app:dialogTitle="ST 6.0 changelog"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
 </PreferenceScreen>
