@@ -56,7 +56,7 @@ class Settings : AppCompatActivity() {
                 val text = "Tap the clock " + tapee + " more times, and a surprise will unlock!"
                 val duration = Toast.LENGTH_SHORT
 
-                val toast = Toast.makeText(requireContext(), text, duration)
+                val toast = Toast.makeText(applicationContext, text, duration)
                 toast.show()
             }
         }
@@ -72,7 +72,7 @@ class Settings : AppCompatActivity() {
                 val text = "Tap the ScratchTappy icon " + tapstee + " more times, and a surprise will unlock!"
                 val duration = Toast.LENGTH_SHORT
 
-                val toast = Toast.makeText(requireContext(), text, duration)
+                val toast = Toast.makeText(applicationContext, text, duration)
                 toast.show()
             }
         }
