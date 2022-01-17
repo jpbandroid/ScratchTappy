@@ -53,7 +53,9 @@
             app:dialogTitle="ST 5.0 changelog"
             app:iconSpaceReserved="false" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="November 2021">
+    <PreferenceCategory
+        android:title="November 2021"
+        app:iconSpaceReserved="false">
 
         <ListPreference
             android:layout_width="wrap_content"

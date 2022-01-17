@@ -62,7 +62,7 @@
             <PreferenceCategory
                 android:icon="@mipmap/ic_launcher44_round"
                 android:title="Tuesday 4 January 2022 at 17:00Sunday 9 January 2022 at 16:00"
-                app:title="Sunday 16 January 2022 at 16:00" />
+                app:title="Monday 17 January 2022" />
         </PreferenceCategory>
     </PreferenceCategory>
 </PreferenceScreen>
