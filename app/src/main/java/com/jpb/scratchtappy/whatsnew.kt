@@ -9,6 +9,6 @@ class whatsnew : AppCompatActivity() {
         setContentView(R.layout.activity_whatsnew)
         val ab: androidx.appcompat.app.ActionBar? = supportActionBar
         ab?.setTitle("What's new")
-        ab?.setSubtitle("ScratchTappy-V6.0.0.2021.11.19")
+        ab?.setSubtitle("ScratchTappy-V6.1.0.2022.1.19")
     }
 }
