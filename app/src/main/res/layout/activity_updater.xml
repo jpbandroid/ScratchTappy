@@ -45,11 +45,10 @@
         android:id="@+id/button12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="249dp"
         android:text="Check for updates"
         android:textAllCaps="false"
-        app:cornerRadius="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_gravity="bottom"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
