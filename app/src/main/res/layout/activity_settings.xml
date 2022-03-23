@@ -55,7 +55,7 @@
                             android:id="@+id/textView24"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="6.1" />
+                            android:text="7.0" />
 
                         <TextView
                             android:id="@+id/textView25"
@@ -202,7 +202,7 @@
                             android:id="@+id/textView56"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="6.1 Stable (build 6100)" />
+                            android:text="7.0 Stable (build 7000)" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -249,7 +249,7 @@
                             android:id="@+id/textView103"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Thursday 20 Jaunary 2022" />
+                            android:text="Wednesday 23 March 2022" />
 
                     </LinearLayout>
                 </LinearLayout>
