@@ -3,13 +3,13 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title" translatable="false">ScratchTappy</string>
-    <string name="nav_header_subtitle">version 6.1</string>
+    <string name="nav_header_subtitle">version 7.0</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_slideshow">Coming soon…</string>
-    <string name="large_text">"ScratchTappy app version: 6.1\n"
+    <string name="large_text">"ScratchTappy app version: 7.0\n"
         "Download jpb Activity Launcher (found here: https://occoam.com/jpb/wp-content/uploads/aclaunch1.1.apks) to launch hidden activities. \n"         Google Play link: https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher          APK file (from APKMirror) link: https://www.apkmirror.com/apk/adam-szalkowski/activity-launcher/activity-launcher-1-9-2-release/activity-launcher-1-9-2-android-apk-download/download/     \n "
     "This is a minor update and comes with new features. See the changelog (in Settings) for more info!
 🥳"</string>
@@ -197,6 +197,40 @@
         "   ● Now uses Kotlin 1.6!\n"
         "   ● Minimum API level changed to 21 (5.0 Lollipop)\n"
         "   ● Sorry to those users who are still running the Android 4.x.x family of Android versions. They are unsupported as of this release. Also, these Android versions are 8-10 years old!! Can you imagine how hard it is to support these ancient Android versions??\n"
+        "If you want me to add new features, just tell me what you want and I will try to figure out how to add it! 😉\n"
+        "As always, I hope that you enjoy this app as well as the others that I have made!"
+    </string>
+    <string name="changelog7" translatable="false">
+        "Welcome to ScratchTappy!\n"
+        "Version 7.0 is a new major release with bug fixes, Material You, and small UI changes\n\n"
+        "UI changes\n"
+        "- App Bar\n"
+        "   ● Removes some redundant items\n"
+        "- Settings, Updater\n"
+        "   ● Adds Material You! (Backported from ST md3!)\n"
+        "   ● Fixes bug where Check for Updates button stuck at bottom of screen under navbar\n"
+        "   ● Now ST Updater actually works!\n"
+        "New Features\n"
+        "- Device info fragments\n"
+        "   • Updates the Redmi Note 8 fragment with the most up-to-date information\n"
+        "- Home page and app launch\n"
+        "   • On update from ST v6.0 or earlier to v6.1, you will see a brand new UI when you first launch ST after an update. Same applies when you first install it from now on.\n"
+        "   • Updates main page for the first time since ST 1.0, released way back in late March 2021! ScratchTappy can now (finally) count your number of taps and display it onscreen! (Backported from ST md3!)\n"
+        "- ST Applets (open these from the launcher!)\n"
+        "   ● jpb Video removed, because of no use case\n"
+        "- C++ JNI\n"
+        "   ● More JNI!!!\n"
+        "- Buttons &amp; Widgets\n"
+        "   ● Adds a FAB to the Buttons fragment\n"
+        "   ● Adds an ImageView to the Widgets fragment\n"
+        "Bug fixes and performance improvements\n"
+        "- Library updates\n"
+        "   ● AGP upgraded to version 7.1.2\n"
+        "   ● Gradle upgraded to version 7.4.1\n"
+        "   ● com.google.android.material updated to version 1.6.0-alpha03\n"
+        "- API Changes\n"
+        "   ● Now uses Kotlin 1.6.1!\n"
+        "   ● Target API level changed to 32 (12L/12.1/12.5) (Backported from ST md3!)\n"
         "If you want me to add new features, just tell me what you want and I will try to figure out how to add it! 😉\n"
         "As always, I hope that you enjoy this app as well as the others that I have made!"
     </string>

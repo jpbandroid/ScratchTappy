@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:dialogIcon="@drawable/ic_changelog"
-            android:dialogMessage="@string/changelog5"
+            android:dialogMessage="@string/changelog7"
             android:dialogTitle="Changelog"
             android:entries="@array/abcd"
             android:entryValues="@array/abcd"
@@ -57,12 +57,12 @@
             android:title="Feedback" />
         <PreferenceCategory
             android:icon="@mipmap/ic_launcher"
-            android:title="App Version: 6.1 (6100)"
-            app:title="App Version: 6.1 (6100)">
+            android:title="App Version: 6.1 (6100)App Version: 7.0 (7000)"
+            app:title="App Version: 7.0 (7000)">
             <PreferenceCategory
                 android:icon="@mipmap/ic_launcher44_round"
                 android:title="Tuesday 4 January 2022 at 17:00Sunday 9 January 2022 at 16:00"
-                app:title="Thursday 20 January 2022" />
+                app:title="Wednesday 23 March 2022" />
         </PreferenceCategory>
     </PreferenceCategory>
 </PreferenceScreen>
