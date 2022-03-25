@@ -243,4 +243,5 @@
     <string name="videorate" translatable="false">Rate jpb Video!</string>
     <string name="st6title" translatable="false">Changelog</string>
     <string name="title_activity_whats_new">WhatsNew</string>
+    <string name="title_activity_osslicense">OSSLicense</string>
 </resources>

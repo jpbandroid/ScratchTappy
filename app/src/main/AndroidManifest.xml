@@ -28,6 +28,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ScratchTappy">
         <activity
+            android:name=".oss.licenses.OSSLicense"
+            android:exported="false"
+            android:label="@string/title_activity_osslicense"
+            android:theme="@style/Theme.ScratchTappy" />
+        <activity
             android:name=".UpdateIntroActivity"
             android:exported="false" />
         <activity

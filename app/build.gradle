@@ -22,6 +22,9 @@ android {
                 cppFlags ''
             }
         }
+        vectorDrawables {
+            useSupportLibrary true
+        }
     }
 
     buildTypes {
@@ -40,11 +43,20 @@ android {
     }
     buildFeatures {
         viewBinding true
+        compose true
     }
     externalNativeBuild {
         cmake {
             path file('src/main/cpp/CMakeLists.txt')
             version '3.10.2'
+        }
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion compose_version
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
 }
@@ -82,5 +94,16 @@ dependencies {
     }
     implementation 'com.google.android.gms:play-services-oss-licenses:17.0.0'
     implementation 'androidx.browser:browser:1.4.0'
-
+    implementation 'com.github.javiersantos:AppUpdater:2.7'
+    implementation "androidx.compose.ui:ui:1.1.1"
+    implementation "androidx.compose.material:material:1.1.1"
+    implementation "androidx.compose.ui:ui-tooling-preview:1.1.1"
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.1'
+    implementation 'androidx.activity:activity-compose:1.4.0'
+    androidTestImplementation "androidx.compose.ui:ui-test-junit4:1.1.1"
+    debugImplementation "androidx.compose.ui:ui-tooling:1.1.1"
+    implementation "com.google.accompanist:accompanist-insets-ui:0.23.1"
+    implementation "com.google.accompanist:accompanist-systemuicontroller:0.23.1"
+    implementation "com.mikepenz:aboutlibraries-core:10.0.0"
+    implementation "com.mikepenz:aboutlibraries-compose:10.0.0"
 }

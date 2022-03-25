@@ -15,6 +15,7 @@
         <!-- Customize your theme here. -->
 
     </style>
+
     <style name="Theme.ScratchTappy.md3" parent="Theme.Material3.DayNight">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
