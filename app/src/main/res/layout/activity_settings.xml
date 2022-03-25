@@ -306,6 +306,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="?android:attr/listDivider" />
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/card"
                 android:layout_width="match_parent"
@@ -342,6 +343,47 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Rate ST with this dialog" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="0"
+                        app:srcCompat="@drawable/ic_fluent_receipt_24_filled__2_" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView70"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Open source licenses"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView71"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="License details for open source software" />
 
                     </LinearLayout>
                 </LinearLayout>

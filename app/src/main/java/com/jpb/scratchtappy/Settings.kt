@@ -12,6 +12,7 @@ import androidx.core.content.ContentProviderCompat.requireContext
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.customview.customView
 import com.jpb.scratchtappy.UpdaterActivity
+import com.jpb.scratchtappy.oss.licenses.OSSLicense
 
 class Settings : AppCompatActivity() {
     var tap = 0
@@ -43,6 +44,11 @@ class Settings : AppCompatActivity() {
                 customView(R.layout.ratingbardialog)
                 title(R.string.strate)
             }
+        }
+        val oss = findViewById<CardView>(R.id.card2)
+        oss.setOnClickListener {
+            val intent = Intent(applicationContext, OSSLicense::class.java)
+            startActivity(intent)
         }
         val time = findViewById<CardView>(R.id.timecard)
         time.setOnClickListener {
