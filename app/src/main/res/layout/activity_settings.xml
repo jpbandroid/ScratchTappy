@@ -249,7 +249,7 @@
                             android:id="@+id/textView103"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Wednesday 23 March 2022" />
+                            android:text="Friday 25 March 2022" />
 
                     </LinearLayout>
                 </LinearLayout>
