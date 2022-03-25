@@ -52,7 +52,7 @@ android {
         }
     }
     composeOptions {
-        kotlinCompilerExtensionVersion compose_version
+        kotlinCompilerExtensionVersion "1.1.1"
     }
     packagingOptions {
         resources {
