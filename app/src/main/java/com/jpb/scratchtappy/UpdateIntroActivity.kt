@@ -52,7 +52,7 @@ class UpdateIntroActivity : OnboarderActivity(), OnboarderPageChangeListener {
                 }
 
                 description {
-                    text = "All the new features and changes in ST " + BuildConfig.VERSION_NAME + "\n" + R.string.changelog5
+                    text = "All the new features and changes in ST " + BuildConfig.VERSION_NAME + "\n" + R.string.changelog7
                     textColor = color(R.color.white)
                     multilineCentered = true
                 }
