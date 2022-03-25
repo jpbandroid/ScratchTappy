@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
-    override fun  onCreateOptionsMenu(menu: Menu?): Boolean {
+    override fun  onCreateOptionsMenu(menu: Menu): Boolean {
         val menuInflater: MenuInflater = getMenuInflater()
         menuInflater.inflate(R.menu.main, menu)
         return super.onCreateOptionsMenu(menu)
