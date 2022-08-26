@@ -47,7 +47,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="The Redmi Note 8 is a phone made by a Chinese company called Xiaomi. It runs MIUI 12.5.1 on top of Android 11 with the October 2021 (on Global models) security patch. Update to MIUI 13/Android 11 is planned. The phone launched with MIUI 10 and Android 9 'Pie' on October 16, 2019. It was anounced on August 29, 2019. It also has a successor, the aptly named Redmi Note 8 2021."
+                android:text="The Redmi Note 8 is a phone made by a Chinese company called Xiaomi. It runs MIUI 12.5.2 on top of Android 11 with the February 2022 (on Global models) security patch. Update to MIUI 13/Android 11 is planned. The phone launched with MIUI 10 and Android 9 'Pie' on October 16, 2019. It was anounced on August 29, 2019. It also has a successor, the aptly named Redmi Note 8 2021."
                 android:textIsSelectable="true"
                 android:textSize="16sp" />
 
