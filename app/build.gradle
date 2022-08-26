@@ -105,5 +105,5 @@ dependencies {
     implementation "com.google.accompanist:accompanist-insets-ui:0.23.1"
     implementation "com.google.accompanist:accompanist-systemuicontroller:0.23.1"
     implementation "com.mikepenz:aboutlibraries-core:10.0.0"
-    implementation "com.mikepenz:aboutlibraries-compose:10.0.0"
+    implementation "com.mikepenz:aboutlibraries-compose:10.4.0"
 }
