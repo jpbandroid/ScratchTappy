@@ -103,7 +103,7 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:1.1.1"
     debugImplementation "androidx.compose.ui:ui-tooling:1.1.1"
     implementation "com.google.accompanist:accompanist-insets-ui:0.23.1"
-    implementation "com.google.accompanist:accompanist-systemuicontroller:0.23.1"
+    implementation "com.google.accompanist:accompanist-systemuicontroller:0.27.0"
     implementation "com.mikepenz:aboutlibraries-core:10.0.0"
     implementation "com.mikepenz:aboutlibraries-compose:10.0.0"
 }
